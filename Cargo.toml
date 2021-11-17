@@ -1,0 +1,18 @@
+[package]
+name = "mockall-mock-external-fn-in-integration-test"
+version = "0.1.0"
+edition = "2021"
+authors = ["Joshua Gerrish <jgerrish@gmail.com>"]
+description = "Rust mockall example to test mocking external function in integration tests"
+keywords = ["tui", "terminal", "cli", "crossterm", "mockall", "rust"]
+readme = "README.md"
+repository = "https://github.com/jgerrish/mockall-mock-external-fn-in-integration-test"
+homepage = "https://github.com/jgerrish/mockall-mock-external-fn-in-integration-test"
+license = "MIT"
+
+[dependencies]
+crossterm = "0.22"
+log = "0.4"
+env_logger = "0.9.0"
+mockall_double = "0.2"
+mockall = "0.10"
